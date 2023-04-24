@@ -1,0 +1,102 @@
+<html>
+    <head>
+          <script src="calc.js"></script>
+          <link href="calc.css" rel="stylesheet">
+    </head>
+
+    <body> 
+        <p>Calculator</p>
+        <table class="Calc">
+            <tr>
+                <td colspan='3'>
+                    <input type="text" id="result">
+                </td>
+                <td>
+                    <button type="button"  onclick="clearscreen()" id="btn" value="clear" >C</button>
+                </td>
+            </tr>
+            
+
+            <tr>
+                <td>
+                    <button type="button" onclick="allclear()" value="0" class="opts">AC</button>
+                </td>
+                <td>
+                    <button type="button" onclick="backspace()" value="bs" class="opts">⌫</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('%')" value="%" id="mod" class="opts">%</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('*')" value="*" class="opts">*</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" onclick="disp('1')" value="1">1</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('2')" value="2">2</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('3')" value="3">3</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('/')" value="/" class="opts">/</button>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <button type="button" onclick="disp('4')" value="4">4</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('5')" value="5">5</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('6')" value="6">6</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('-')" value="-" class="opts">-</button>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <button type="button" onclick="disp('7')" value="7">7</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('8')" value="8">8</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('9')" value="9">9</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('+')" value="+" class="opts">+</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" onclick="disp('00')" value="00" >00</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('0')" value="0">0</button>
+                </td>
+                <td>
+                    <button type="button" onclick="disp('.')" value=".">.</button>
+                </td>
+                <td>
+                    <button type="button" onclick="result()" value="=" id="eq">=</button>
+                </td>
+                
+            </tr>
+
+            
+
+        </table>
+    </body>
+</html>

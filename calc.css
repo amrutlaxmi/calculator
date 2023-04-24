@@ -1,0 +1,68 @@
+body{
+background-image: url(https://i.ibb.co/0fVLsKX/bgcalc.jpg);
+}
+
+.Calc{
+    background-color:rgba(194, 192, 218, 0.904);
+    padding: 2%;
+    border-radius: 30px;
+    border: 5% rgb(220, 220, 230) solid;
+}
+
+p{
+    font-size: 60px;
+    margin-left: 42%;
+    margin-top: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(241, 248, 248);
+}
+table{
+    border: 2px rgb(117, 105, 160) solid;
+    margin-left: 38%;
+    margin-top:4%;
+    height: 540px;
+    width: 300px !important;
+    border: 6px solid teal;
+}
+
+button{
+    background-color: rgb(98, 88, 151);
+    height: 52px;
+    width: 65px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bolder;
+    padding: 2% 4%;
+    cursor: pointer;
+    box-shadow: 0 8px rgb(90, 90, 90);
+    translate: transformY(4px);
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+button:hover{
+   color: white;
+   background-color: green;
+}
+
+#result{
+    height: 60px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: end;
+    border:3px solid teal;
+}
+
+.opts{
+    background-color: teal;
+}
+
+#eq{
+    background-color: rgb(200,103,118);
+}
+
+#btn{
+    background-color: rgb(200, 103, 118);
+}
+
